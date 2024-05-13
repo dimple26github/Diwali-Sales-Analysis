@@ -1,8 +1,16 @@
 # Diwali-Sales-Analysis
+
+- [Project overview ](#project-overview )
+- [Data source](#data-source)
+- [Tools](#tools)
+- [Data cleaning](data-cleaning)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Result](#result)
+
 ## Project overview 
 
-this data analysis project Improved sales by identifying most selling products categories and products, which can help to plan inventory and hence meet the
-demands, also Improved customer experience by identifying potential customer across different sates, occupation, gender and age groups
+this data analysis project Performed data cleaning, manipulation and exploratory data analysis (EDA) using pandas, matplotlib, and seaborn libraries which Improved sales by identifying most selling products categories and products, which can help to plan inventory and hence meet the demands, also Improved customer experience by identifying potential customer across different sates, occupation, gender and age groups
 
 ### Data source
 
@@ -10,27 +18,36 @@ Sales Data : the primary dataset used for this analysis is the "Diwali Sales Dat
 
 ### Tools
 
-Excel : data cleaning
-python Jupyter noteb### Data cleaning/Preparation 
+- Excel 
+- python Jupyter notebook 
+
+
+### Data cleaning
 
 In the intial data preparation phase, we performed the following tasks:
-1. Load data into Jupyter Notebook, dataset is a csv file.
-2. Handling missing values
-3. Data cleaning and formating
+- Load data into Jupyter Notebook, dataset is a csv file
+-  Handling missing values
+-   Data cleaning and formating
 
 ### Exploratory Data Analysis
 
 - Analyzed sales trends over the Diwali period using line plots or time series analysis.
 - Explored sales by product categories and sub-categories using bar charts or pie charts.
-- Calculated key metrics such as total sales, average order value, and profit margins.
+- Calculated key metrics such as total sales, total no of order , most sold product, total amount.
 
-  ### Data Analysis
+### Data Analysis
 
-Include some interesting code/features worked with Power BI
+Include some interesting code/features
+- Data Cleaning: Cleaned and preprocessed the data to handle missing values and outliers.
+- plotting a bar chart for Gender and it's count
+- plotting a bar chart for gender vs total amount
+- total number of orders from top 10 states
+- total amount/sales from top 10 states
+- top 10 most sold products
 
 
 
-### Result/findings
+### Result
 
 The analysis result are summarized as follows:
 
